@@ -15,9 +15,11 @@ Nivel 2: Objetos (JSON) y Vectores Simples
 Crea un componente que reciba un único objeto JSON llamado contacto. Este objeto debe contener nombre, email, telefono y un sub-objeto direccion (que contenga calle y ciudad). El componente debe extraer todas estas variables y mostrarlas visualmente en un formato de tarjeta de presentación.
 
  5.⁠ ⁠La Lista de Compras
-Crea un componente ListaCompras que reciba un vector de strings (por ejemplo: ['Manzanas', 'Leche', 'Pan', 'Huevos']). Utilizando la función .map() de JavaScript, el componente debe iterar sobre el vector y renderizar una lista desordenada en HTML (<ul> con sus respectivos <li>).
+Crea un componente ListaCompras que reciba un vector de strings (por ejemplo: ['Manzanas', 'Leche', 'Pan', 'Huevos']). Utilizando la función .map() de JavaScript, el componente debe iterar sobre el vector y renderizar una lista desordenada en HTML (&lt;ul&gt; con sus respectivos &lt;li&gt;).
+
 
 Nivel 3: Vectores de JSON y Estilos Condicionales
+
  6.⁠ ⁠El Catálogo de la Tienda
 Crea un componente Catalogo que reciba un vector de objetos JSON, donde cada objeto representa un producto con las propiedades: id, nombre, precio y descripcion. El componente debe iterar sobre este vector y renderizar una cuadrícula o lista donde se vea la información de cada producto. (Nota: no olviden usar la prop key al iterar).
 
@@ -25,6 +27,7 @@ Crea un componente Catalogo que reciba un vector de objetos JSON, donde cada obj
 Crea un componente que reciba un vector de tareas. Cada tarea es un JSON con id, titulo y completada (un booleano). Al renderizar la lista con .map(), aplica una condición: si la tarea está completada, el texto debe aparecer tachado o con un color de texto gris; si no, debe verse normal.
 
 Nivel 4: Lógica de JavaScript Aplicada y Composición
+
  8.⁠ ⁠Filtro de Inventario
 Crea un componente Inventario que reciba dos props: un vector de productos (con nombre, precio y categoria) y un string llamado categoriaSeleccionada. Antes de renderizar, el componente debe usar el método .filter() de JavaScript para quedarse solo con los productos que coincidan con la categoriaSeleccionada. Luego, usa .map() para mostrar en pantalla solo los productos filtrados.
 
