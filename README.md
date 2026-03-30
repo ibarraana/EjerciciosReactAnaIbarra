@@ -10,6 +10,7 @@ Crea un componente Calculadora que reciba dos números como props (numA y numB).
 Crea un componente PanelUsuario que reciba una propiedad booleana llamada estaLogueado. Utilizando un operador ternario o el operador lógico &&, el componente debe mostrar un encabezado que diga "¡Bienvenido a tu cuenta!" si el valor es verdadero, o "Por favor, inicia sesión para continuar" si es falso.
 
 Nivel 2: Objetos (JSON) y Vectores Simples
+
  4.⁠ ⁠Tarjeta de Contacto Estructurada
 Crea un componente que reciba un único objeto JSON llamado contacto. Este objeto debe contener nombre, email, telefono y un sub-objeto direccion (que contenga calle y ciudad). El componente debe extraer todas estas variables y mostrarlas visualmente en un formato de tarjeta de presentación.
 
