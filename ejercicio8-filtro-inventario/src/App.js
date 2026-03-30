@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import FiltroInventarios from "./componentes/filtro-inventarios";
 
 function App() {
+
+  const vectorDeProductos = [
+    {
+      nombre: "Producto 1",
+      precio: 10.99,
+      categoria: "Bazar"
+    },
+    {
+      nombre: "Producto 2",
+      precio: 5.49,
+      categoria: "Hogar"
+    },
+    {
+      nombre: "Producto 3",
+      precio: 20.00,
+      categoria: "Electrónica"
+    }
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <FiltroInventarios vectorProductos={ vectorDeProductos } categoriaSeleccionada="Hogar" />
     </div>
   );
 }
